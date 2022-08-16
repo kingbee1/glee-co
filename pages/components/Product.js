@@ -2,7 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import { urlFor } from '../../lib/Client'
 
-const Product = ({product: { name, image, slug, price} }) => {
+const Product = ({ product: { name, image, slug, price } }) => {
+  console.log(slug)
   return (
     <div>
       <Link href={`/product/${slug.current}`}>
@@ -12,8 +13,8 @@ const Product = ({product: { name, image, slug, price} }) => {
             height={250}
             className='product-image'
           />
-          <p className='product-name'>{name}</p>
-          <p className='product-price'>₦{price}</p>
+          <p className='product-name'>{name ?? ''}</p>
+          <p className='product-price'>₦{price ?? 0}</p>
         </div>
       </Link>
     </div>
