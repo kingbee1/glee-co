@@ -42,7 +42,7 @@ const Cart = () => {
                   <div>
                     <p className='quantity-desc'>
                       <span className='minus' onClick={() => toggleCartItemQuantity(item._id, 'dec')}><AiOutlineMinus /></span>
-                      <span className='num' onClick=''>{item.quantity}</span>
+                      <span className='num'>{item.quantity}</span>
                       <span className='plus' onClick={() => toggleCartItemQuantity(item._id, 'inc')}><AiOutlinePlus /></span>
                     </p>
                   </div>
@@ -64,7 +64,7 @@ const Cart = () => {
               <h3>₦{totalPrice}</h3> 
             </div>
             <div className='btn-container'>
-              <button type='button' className='btn' onClick={''}>Pay with your card</button>
+              <button type='button' className='btn'>Pay with your card</button>
             </div>
           </div>
         )}
