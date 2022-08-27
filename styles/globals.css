@@ -661,6 +661,14 @@ margin-top: 160px;
     flex-wrap: wrap;
     gap: 20px;
   }
+
+  .desc p{
+    text-align: start;
+  }
+  .desc h5{
+    align-self: flex-start;
+  }
+
   .hero-banner-container{
     line-height: 1.3;
   }
