@@ -36,7 +36,6 @@ width: 100%;
   font-size: 29px;
   font-weight: 600;
   margin: 60px 0px;
-  /* color: #f02d34; */
   color: #8836F6;
 }
 .marquee {
@@ -132,7 +131,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  background-color: #eae5f0;
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -146,7 +145,6 @@ width: 100%;
 .hero-banner-container button{
   border-radius: 15px;
   padding: 10px 16px;
-  /* background-color: #f02d34; */
   background-color: #8836F6;
   color: white;
   border: none;
@@ -167,6 +165,7 @@ width: 100%;
   margin-left: -20px;
   text-transform: uppercase;
 }
+
 .hero-banner-image{
   position: absolute;
   top: 0%;
@@ -174,7 +173,6 @@ width: 100%;
   width: 450px;
   height: 450px;
 }
-
 
 .desc{
   position: absolute;
@@ -542,8 +540,7 @@ padding: 6px;
 }
 .quantity-desc .minus{
   border-right: 1px solid gray;
-  /* color: #f02d34; */
-  color: #8836F6;
+  color: #f02d34;
 }
 .quantity-desc .num{
   border-right: 1px solid gray;
@@ -583,8 +580,8 @@ padding: 6px;
 }
 .success, .cancel{
   width: 1000px;
-margin: auto;
-margin-top: 160px;
+  margin: auto;
+  margin-top: 160px;
   background-color: #dcdcdc;
   padding: 50px;
   border-radius: 15px;
@@ -645,14 +642,18 @@ margin-top: 160px;
     margin-top: 80px;
   }
   .footer-banner-image{
-    width: 77%;
+    /* width: 77%;
     left: 30%;
     top: 6%;
-    height: 56%
+    height: 56% */
+    width: 62%;
+    left: 45%;
+    top: 0%;
+    height: 52%;
   }
   .banner-desc .left h3{
     font-weight: 900;
-    font-size: 50px;
+    font-size: 46px;
     margin-left: 5px;
   }
   .banner-desc .left p{
